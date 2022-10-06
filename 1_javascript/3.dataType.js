@@ -1,5 +1,5 @@
 /**
- * 1.단일 데이터(원시) - number, string, boolean, null, undefined, Symbol
+ * 1.단일 데이터(원시 Primitive) - number, string, boolean, null, undefined, Symbol
  * 2.복합 데이터(object) - object(array), function
  */
 
@@ -56,7 +56,6 @@ console.log(!!1);
 console.log(!!{}); //비어있는 객체
 console.log(!![]); //비어있는 배열
 console.log(!!'text');
-
 
 //4. Null, undefined
 let variable; //값이 아직 정해져 있는 않은 상태 - 아직 있는지 없는지 모르는 상태
